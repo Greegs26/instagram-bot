@@ -1,5 +1,7 @@
 import random
 
+# TEST
+
 # Load the file
 with open("saved_posts_test.txt", "r") as f:
     links = [line.strip() for line in f if line.strip()]
